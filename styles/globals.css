@@ -1,0 +1,48 @@
+:root{
+  --red : #e32652;
+  --dark : #000;
+  --white: #fff;
+  --light-white:rgb(131, 130, 130);
+  --button-pad:10px 15px;
+  --border-rad:8px;
+  --title:'Luckiest Guy', cursive;
+  --text:'Oswald', sans-serif;
+}
+
+html,
+body {
+  padding: var(--button-pad);
+  margin: 0;
+  background: var(--dark);
+  font-family: var(--text);
+}
+
+p{
+  color: var(--light-white);
+  font-size: 1.5rem;
+}
+h1{
+  color: var(--white) ;
+  font-family: var(--title);
+}
+span{
+  color: var(--red);
+  
+}
+button{
+  background-color: var(--red);
+  color: var(--white);
+  padding: var(--button-pad);
+  border-radius: var(--border-rad);
+  cursor: pointer;
+}
+.getJokes{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
